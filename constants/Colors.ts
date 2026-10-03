@@ -1,19 +1,19 @@
-const tintColorLight = '#2f95dc';
-const tintColorDark = '#fff';
+// constants/Colors.ts
+const spotifyGreen = '#1DB954';
 
 export default {
   light: {
-    text: '#000',
-    background: '#fff',
-    tint: tintColorLight,
-    tabIconDefault: '#ccc',
-    tabIconSelected: tintColorLight,
+    text: '#FFFFFF',
+    background: '#121212',
+    tint: spotifyGreen,
+    tabIconDefault: '#727272',
+    tabIconSelected: spotifyGreen,
   },
   dark: {
-    text: '#fff',
-    background: '#000',
-    tint: tintColorDark,
-    tabIconDefault: '#ccc',
-    tabIconSelected: tintColorDark,
+    text: '#FFFFFF',
+    background: '#121212',
+    tint: spotifyGreen,
+    tabIconDefault: '#727272',
+    tabIconSelected: spotifyGreen,
   },
 };
